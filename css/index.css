@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin:0%;
+   ;
+
+
+}
+.GetStarted{
+    background-color: white;
+}
+ 
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 500px;
+  }
+  h1{
+    margin-left: 500px  ;
+  } 
+  p{
+    margin-left: 10px;
+  }
