@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class = "Register-container">
+        <form action="#">
+    <fieldset style="width: 300px; height: 500px;">
+        <legend>Fill this form with your details</legend>
+        <label for="firstname">First Name:</label>
+        <input type="text" id = "firstname" placeholder="First Name">
+        <label for="middlename">Middle Name:</label>
+        <input type="text" id = "middlename" placeholder="Middle Name">
+        <label for="lastname">Last name:</label>
+        <input type="text" id = "lastname" placeholder = "last name">
+        <label for="gender">Gender:</label>
+        <input type="text" id = "gender" placeholder = "Gender">
+        <label for="phoneno">Phone Number:</label>
+        <input type="text" id = "phoneno" placeholder = "Phone Number">
+        <label for="nationality">Nationality:</label>
+        
+        <select name="nationality" id="nationality">
+            <option value="">...Select Nationality...</option>
+            <option value="US">United States</option>
+            <option value="CA">Canada</option>
+            <option value="NG">Nigeria</option>
+            <option value="EN">England</option>
+            <br><br><br>
+        </select>
+        <br><br>
+        <button type="submit" onclick="return confirm('Details successfully submitted, click OK to login')"><a href="login.html">Submit</a></button>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>
