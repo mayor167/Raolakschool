@@ -9,20 +9,17 @@
 <body>
     <div class = "Register-container">
         <form action="#">
-    <fieldset style="width: 300px; height: 500px;">
-        <legend>Fill this form with your details</legend>
+    <fieldset style="width: 300px; height: 670px;">
+        <legend><i><b>Fill this form with your details</b></i></legend>
         <label for="firstname">First Name:</label>
-        <input type="text" id = "firstname" placeholder="First Name">
-        <label for="middlename">Middle Name:</label>
-        <input type="text" id = "middlename" placeholder="Middle Name">
-        <label for="lastname">Last name:</label>
-        <input type="text" id = "lastname" placeholder = "last name">
+        <input type="text" id = "firstname" placeholder="First Name  Middle Name  Last Name">
+        <label for="email">Email Address:</label>
+        <input type="email" id = "email" placeholder="e.g adenijimayokun@gamil.com">
         <label for="gender">Gender:</label>
         <input type="text" id = "gender" placeholder = "Gender">
         <label for="phoneno">Phone Number:</label>
         <input type="text" id = "phoneno" placeholder = "Phone Number">
         <label for="nationality">Nationality:</label>
-        
         <select name="nationality" id="nationality">
             <option value="">...Select Nationality...</option>
             <option value="US">United States</option>
@@ -32,6 +29,12 @@
             <br><br><br>
         </select>
         <br><br>
+        <label for="username">Username:</label>
+        <input type="text" id = "username" placeholder = "Enter your Username">
+        <label for="password">Password:</label>
+        <input type="password" id = "Password" placeholder = "Enter Password">
+        <label for="confirmpassword">Confirm Your Password:</label>
+        <input type="password" id = "confirmPassword" placeholder = "confirm Password">
         <button type="submit" onclick="return confirm('Details successfully submitted, click OK to login')"><a href="login.html">Submit</a></button>
     </fieldset>
     </form>
