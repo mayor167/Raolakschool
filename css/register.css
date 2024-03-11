@@ -5,11 +5,15 @@ body {
     justify-content: center; /* Centers the content horizontally */
     align-items: center; /* Centers the content vertically */
     min-height: 100vh; /* Sets minimum height to viewport height */
+    background-image: url("1111.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
   }
   
   .Register-container {
     background-color: #f0f0f0;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     text-align: center;
   }
@@ -37,4 +41,5 @@ body {
   }
   a{
     text-decoration: none;
+    color: white;
   }
